@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container form">
+        <div class="row">
+            <div class="col-auto m-auto">
+                <h1>Форма регистрации</h1>
+            </div>
+        </div>
+        <p id="errorForm"></p>
+        <div class="row inputs">
+            <div class="col-12 col-md-4">
+                <input type="text" placeholder="Имя*" id="name">
+                <p class="error"></p>
+            </div>
+            <div class="col-12 col-md-4">
+                <input type="text" placeholder="Фамилия*" id="surname">
+                <p class="error"></p>
+            </div>
+            <div class="col-12 col-md-4">
+                <input type="text" placeholder="E-mail*" id="email">
+                <p class="error"></p>
+            </div>
+            <div class="col-12 col-md-6">
+                <input type="password" placeholder="Пароль*" id="pass">
+                <p class="error"></p>
+            </div>
+            <div class="col-12 col-md-6">
+                <input type="password" placeholder="Повторите пароль*" id="repeatpass">
+                <p class="error"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-auto mr-auto">
+                <div class="button reset">Сбросить</div>
+            </div>
+            <div class="col-auto ml-auto">
+                <div class="button submit">Отправить</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container success">
+        <div class="row">
+            <div class="col">
+                <h1>Регистрация успешно пройдена!</h1>
+                <p>Скоро вам придет сообщение с подтверждением регистрации</p>
+            </div>
+        </div>
+    </div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/send.js"></script>
+
+</body>
+</html>

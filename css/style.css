@@ -1,0 +1,73 @@
+*{
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    color: #685f74;
+}
+h1{
+    color: #8bd0b4;
+    margin: 30px 0 15px
+}
+.inputs input{
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #d9d1c7;
+}
+.inputs input::placeholder {
+    color: #b3aca4; }
+.inputs input::-webkit-input-placeholder {
+    color: #b3aca4; }
+.inputs input::-moz-placeholder {
+    color: #b3aca4; }
+.inputs input:-moz-placeholder {
+    color: #b3aca4; }
+.inputs input:-ms-input-placeholder {
+    color: #b3aca4; }
+
+.inputs input:focus{
+    outline: none;
+}
+
+.inputs input.errState{
+    border-color: #dd4b4f;
+}
+#errorForm, .inputs .error{
+    height: 21px;
+    color: #dd4b4f;
+}
+
+.button{
+    padding: 10px 40px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.reset{
+    background-color: #eae1d7;
+}
+.reset:hover{
+    background-color: #d9d1c7;
+}
+.reset:active{
+    background-color: #c4bdb5;
+}
+.submit{
+    background-color: #8bd0b4;
+    color: #fff;
+}
+.submit:hover{
+    background-color: #7ebda4;
+}
+.submit:active{
+    background-color: #6ca18b;
+}
+
+.success{
+    display: none;
+    text-align: center;
+}
+
+@media (max-width: 400px){
+    .button{
+        width: calc(100vw - 30px);
+    }
+}
